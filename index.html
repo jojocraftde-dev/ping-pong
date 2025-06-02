@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ping Pong</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @font-face {
+      font-family: 'PressStart';
+      src: url('pressstart.ttf') format('truetype');
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <h1>Ping Pong</h1>
+    <button id="startBtn" onclick="startGame()">Spiel Starten</button>
+    <p class="hint">Bewege Spieler 1 und 2 nach oben gleichzeitig</p>
+  </div>
+  <div id="endScreen"></div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="renderer.js"></script>
+</body>
+</html>

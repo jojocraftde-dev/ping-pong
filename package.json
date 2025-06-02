@@ -1,0 +1,12 @@
+{
+  "name": "electron-pingpong",
+  "version": "1.0.0",
+  "description": "Ping Pong Game in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.0"
+  }
+}

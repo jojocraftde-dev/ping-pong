@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  color: white;
+  font-family: 'PressStart', sans-serif;
+  text-align: center;
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  z-index: 2;
+}
+
+#startBtn {
+  background: white;
+  border: none;
+  font-family: 'PressStart', sans-serif;
+  font-size: 20px;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.hint {
+  margin-top: 20px;
+  color: gray;
+  font-size: 14px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  font-size: 10px;
+  color: #666;
+}
+
+#endScreen {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  font-size: 24px;
+  color: red;
+  display: none;
+  z-index: 3;
+}
+
+canvas {
+  display: block;
+}
