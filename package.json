@@ -4,9 +4,22 @@
   "description": "Ping Pong Game in Electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.xequence.pingpong",
+    "productName": "PingPongGameV1",
+    "win": {
+      "target": "portable"
+    },
+    "directories": {
+      "output": "C:/Users/JoJo/Documents/Code/Ping Pong/exe"
+    }
   },
   "devDependencies": {
-    "electron": "^28.2.0"
+    "electron": "^28.2.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
   }
 }
